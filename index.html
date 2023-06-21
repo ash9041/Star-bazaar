@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>star bazaar</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!--favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" type="text/css" href="Style/style.css">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="header-1">
+<a href="#" class="logo"><i class="fas fa-star"></i>Bazaar</a>
+<form action="" class="search-form">
+    <input type="search" name="" placeholder="search here..." id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+</form>
+<div class="icons">
+    <div id="search-btn" class="fas fa-search"></div>
+   
+    <a id="cart" href="#" class="fas fa-shopping-cart"></a>
+    <div id="login-btn" class="fas fa-user"> </div>
+</div>
+
+</div>    
+<div class="header-2">
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features"> vegetables</a>
+        <a href="#products">Daily Staples</a>
+        <a href="#categories">Snack's Corner</a>
+        <a href="#review">review</a>
+       
+    </nav>
+</div>
+</header>
+ <div class="login-form-container" >
+    <div id="close-login-btn" class="fas fa-times"></div>
+    <form action="" >
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email"  class="box"placeholder="Enter your email" id="">
+        <span>password</span>
+        <input type="password" class="box" placeholder="Enter your password" class="">
+       <div class="checkbox">
+        <input type="checkbox" name="" id="remeber-me">
+        <label for="remember-me">remember me</label>
+       </div>
+       <input type="submit" value="sign-in" class="btn">
+       <p>forget password ?<a href="#">click here</a></p>
+       <p>don't have an account ?<a href="#">create one</a></p>
+    </form>
+ </div> 
+ <section class="home" id="home">
+    <div class="bodyy">
+      
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="Images/banner1.webp" style="width:100%">
+                
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="Images/banner2.webp" style="width:100%">
+                
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="Images/banner3.webp" style="width:100%">
+                
+            </div>
+           
+        </div>
+    </section>
+    </div>
+        <section class="features" id="features">
+
+            <h1 class="heading"> <span>Vegetables</span> </h1>
+        
+            <div class="swiper features-slider">
+        
+                <div class="swiper-wrapper">
+        
+                    <div class="swiper-slide box">
+                        <img src="Images/product-1.png" alt="">
+                        <h3>Onions</h3>
+                      <div class="price">Price:₹31/kg</div>
+                     
+                      <div class="star"><i class="fa fa-truck" aria-hidden="true"></i> Delivery time: 9:00AM-1:30PM</div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <img src="Images/product-2.png" alt="">
+                        <h3>Cabbage</h3>
+                        <div class="price">Price:₹40/kg </div>
+                        
+                      <div class="star"><i class="fa fa-truck" aria-hidden="true"></i> Delivery time: 9:00AM-1:30PM</div>
+                       
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <img src="Images/product-3.png" alt="">
+                        <h3>Potatos</h3>
+                        <div class="price">Price:₹35/kg </div>
+                        
+                      <div class="star"><i class="fa fa-truck" aria-hidden="true"></i> Delivery time: 9:00AM-1:30PM</div>
+                        
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <img src="Images/product-4.png" alt="">
+                        <h3>Carrot</h3>
+                        <div class="price">Price:₹110/kg </div>
+                        
+                      <div class="star"><i class="fa fa-truck" aria-hidden="true"></i> Delivery time: 9:00AM-1:30PM</div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+        
+                </div>
+        
+            </div>
+        
+        </section>
+        
+        
+        
+        <section class="products" id="products">
+        
+            <h1 class="heading"> <span>Daily Staples</span> </h1>
+        
+            <div class="swiper product-slider">
+        
+                <div class="swiper-wrapper">
+        
+                    <div class="swiper-slide box">
+                        <img src="Images/DS-1.jpg" alt="">
+                        <h3>Aashirvad Atta</h3>
+                        <div class="price">Price:₹413 </div>
+                      <div class="star"><i class="fa fa-truck" aria-hidden="true"></i> Delivery time: 9:00AM-1:30PM</div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <img src="Images/DS-2.jpg" alt="">
+                        <h3>Tata Salt</h3>
+                        <div class="price">Price:₹27 </div>
+                      <div class="star"><i class="fa fa-truck" aria-hidden="true"></i> Delivery time: 9:00AM-1:30PM</div>
+                       
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <img src="Images/DS-3.jpg" alt="">
+                        <h3>Toor Dal</h3>
+                        <div class="price">Price:₹267 </div>
+                      <div class="star"><i class="fa fa-truck" aria-hidden="true"></i> Delivery time: 9:00AM-1:30PM</div>
+                        
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <img src="Images/DS-4.jpg" alt="">
+                        <h3>Sugar</h3>
+                        <div class="price">Price:₹24 </div>
+                      <div class="star"><i class="fa fa-truck" aria-hidden="true"></i> Delivery time: 9:00AM-1:30PM</div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+        
+                </div>
+        
+            </div>
+        
+           
+        
+            
+        
+        
+        </section>
+        
+       
+        
+        <section class="categories" id="categories">
+        
+            <h1 class="heading">  <span>Snacks Corner</span> </h1>
+        
+            <div class="swiper categories-slider">
+        
+                <div class="swiper-wrapper">
+        
+                    <div class="swiper-slide box">
+                        <img src="Images/SC-1.jpg" alt="">
+                        <h3>Plain Bhujia</h3>
+                        <div class="price">Price:₹47</div>
+                      <div class="star"><i class="fa fa-truck" aria-hidden="true"></i> Delivery time: 9:00AM-1:30PM</div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <img src="Images/SC-2.jpg" alt="">
+                        <h3>Almonds</h3>
+                        <div class="price">Price:₹234 </div>
+                      <div class="star"><i class="fa fa-truck" aria-hidden="true"></i> Delivery time: 9:00AM-1:30PM</div>
+                       
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <img src="Images/SC-3.jpg" alt="">
+                        <h3>Maggi</h3>
+                        <div class="price">Price:₹147</div>
+                      <div class="star"><i class="fa fa-truck" aria-hidden="true"></i> Delivery time: 9:00AM-1:30PM</div>
+                        
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <img src="Images/SC-4.jpg" alt="">
+                        <h3>Pasta</h3>
+                        <div class="price">Price:₹14 </div>
+                      <div class="star"><i class="fa fa-truck" aria-hidden="true"></i> Delivery time: 9:00AM-1:30PM</div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+        
+                </div>
+        
+            </div>
+        
+        </section>
+        
+       
+        
+        <section class="review" id="review">
+        
+            <h1 class="heading">  <span>customer's review</span> </h1>
+        
+            <div class="swiper review-slider">
+        
+                <div class="swiper-wrapper">
+        
+                    <div class="swiper-slide box">
+                        <img src="Images/pic-1.jpg" alt="">
+                    <p> I recently started using  star bazaar, and I'm extremely impressed with their service. The  prices are affordable.</p>                        
+                        <h3>Alex carey</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <img src="Images/pic-2.jpg" alt="">
+                        <p> I'm very satisfied with their service. They offer a wide range of organic and specialty products that are hard to find in local stores. </p>
+                        <h3>Jospeh</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <img src="Images/pic-3.jpg" alt="">
+                        <p>Wide range of products, user-friendly interface, and speedy delivery. Highly recommend for convenient shopping!</p>
+                        <h3>Nikita</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <img src="Images/pic-4.png" alt="">
+                        <p>Fresh products, secure payment options, and reliable delivery. A trusted platform for all your grocery needs.</p>
+                        <h3>Neha</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+        
+                </div>
+        
+            </div>
+        
+        </section>
+        
+       
+        
+        <section class="footer">
+        
+            <div class="box-container">
+        
+                <div class="box">
+                    <h3>About us</h3>
+                    <p>We deliver to 25 cities across India and maintain excellent delivery times, ensuring that all your products from groceries to snacks branded foods reach you in time.</p>
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+        
+                <div class="box">
+                    <h3>contact info</h3>
+                    <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                    <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                    <a href="#" class="links"> <i class="fas fa-envelope"></i> starbazaar@gmail.com </a>
+                    <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Delhi, india - 400104 </a>
+                </div>
+        
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                    <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+                    <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+                    <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+                    <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+                    <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+                </div>
+        
+                <div class="box">
+                    <h3>Feedback</h3>
+                    <p>subscribe for latest updates</p>
+                    <input type="email" placeholder="Enter Your E-mail" class="email">
+                    <input type="text" name="" placeholder="Write your Feedback" class="s-box">
+                    <input type="submit" value="Submit" class="btn">
+                    <img src="Images/payment.png" class="payment-img" alt="">
+                </div>
+        
+            </div>
+        
+            <div class="credit"> Copyright @ <span> star bazaar limited </span> | all rights reserved </div>
+        
+        </section>
+        
+        <!-- footer section ends -->
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        
+        <!-- custom js file link  -->
+        <script src="js/script.js"></script>
+       
+        
+        
+       
+    
+        </body>
+        </html>
